@@ -6,3 +6,59 @@ html {
 body {
   background-color: #fafafa;
 }
+
+/* =============================== Footer =============================== */
+.page-footer{
+  margin-top: 33px; 
+  width: 100%;
+  display: flex;
+  background-color: rgba(122, 95, 69, 1);
+  color: #f1f5f9;
+  justify-content: space-between;
+}
+
+/* === Logo Box & Copyright === */
+.footer__section--logo-box {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 50px 30px 50px;
+}
+.footer__a--logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.footer__p--desc{
+  font-size: 30px;
+}
+.footer__p--copyright{
+  font-family: Anonymous Pro;
+  font-size: 11px;
+}
+
+/* === Social list === */
+.footer__section--social{
+  display: flex;
+  align-items: center; 
+  flex-direction: column;
+  padding-top: 30px ;
+}
+.footer__ul--social-list{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 5px;
+}
+
+/* === Link List === */
+.footer__section--link-list{
+  display: flex;
+  flex-direction: column;
+  padding: 30px 50px 30px 50px;
+}
+.section__ul--tag-list{
+  list-style: none;
+}
+.footer__a--home{
+  color: white;
+}
